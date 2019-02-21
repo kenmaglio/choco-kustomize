@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kustomize</id>
+    <version>2.0.1</version>
+    <packageSourceUrl>https://github.com/kenmaglio/choco-kustomize</packageSourceUrl>
+    <owners>Ken Maglio</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Kustomize (Install)</title>
+    <authors>Kubernetes-SIG</authors>
+    <projectUrl>http://kustomize.io</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/kenmaglio/choco-kustomize/master/images/kustomize.ico</iconUrl>
+    <copyright>2019</copyright>
+    <licenseUrl>https://github.com/kubernetes-sigs/kustomize/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/kubernetes-sigs/kustomize</projectSourceUrl>
+    <docsUrl>https://github.com/kubernetes-sigs/kustomize/blob/master/docs</docsUrl>
+    <tags>kustomize admin</tags>
+    <summary>Kustomize lets you customize raw, template-free YAML files for multiple purposes, leaving the original YAML untouched and usable as is.</summary>
+    <description>kustomize lets you customize raw, template-free YAML files for multiple purposes, leaving the original YAML untouched and usable as is.
+
+kustomize targets kubernetes; it understands and can patch kubernetes style API objects. It's like make, in that what it does is declared in a file, and it's like sed, in that it emits editted text.
+
+This tool is sponsored by sig-cli (KEP), and inspired by DAM.</description>
+    <releaseNotes>add nil pointer check when loading from remote URL
+improve error message when customization file is not found</releaseNotes>
+  </metadata>
+</package>
