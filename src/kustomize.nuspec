@@ -21,7 +21,6 @@
 kustomize targets kubernetes; it understands and can patch kubernetes style API objects. It's like make, in that what it does is declared in a file, and it's like sed, in that it emits editted text.
 
 This tool is sponsored by sig-cli (KEP), and inspired by DAM.</description>
-    <releaseNotes>add nil pointer check when loading from remote URL
-improve error message when customization file is not found</releaseNotes>
+    <releaseNotes>https://github.com/kubernetes-sigs/kustomize/releases</releaseNotes>
   </metadata>
 </package>
