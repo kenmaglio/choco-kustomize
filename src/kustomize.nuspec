@@ -10,7 +10,6 @@
     <authors>Kubernetes-SIG</authors>
     <projectUrl>http://kustomize.io</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/kenmaglio/choco-kustomize/master/images/kustomize.png</iconUrl>
-    <copyright>2019</copyright>
     <licenseUrl>https://github.com/kubernetes-sigs/kustomize/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/kubernetes-sigs/kustomize</projectSourceUrl>
