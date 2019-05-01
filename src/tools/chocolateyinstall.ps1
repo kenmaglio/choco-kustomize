@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation = join-path $toolsDir 'kustomize_2.0.1_windows_amd64.exe'
+$fileLocation = join-path $toolsDir 'kustomize_2.0.3_windows_amd64.exe'
 
 $packageArgs = @{ 
   packageName   = $env:ChocolateyPackageName
@@ -8,8 +8,8 @@ $packageArgs = @{
   fileType      = 'exe'
   silentArgs    = ""
   validExitCodes= @(0)
-  url64bit      = "https://github.com/kubernetes-sigs/kustomize/releases/download/v2.0.1/kustomize_2.0.1_windows_amd64.exe"
-  checksum64    = 'C0CE46C0C81BB7EE4B13128A3152E17B73FDE586057AE8C85EDDFA3134D28371'
+  url64bit      = "https://github.com/kubernetes-sigs/kustomize/releases/download/v2.0.3/kustomize_2.0.3_windows_amd64.exe"
+  checksum64    = '7D8BE317F58A245065E1EF57356631DA81B0DBAB40F5F7CFBE65B55D8D484B29'
   checksumType64= 'sha256'
   destination   = $toolsDir
 }
