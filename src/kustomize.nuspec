@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>kustomize</id>
-    <version>2.0.3</version>
+    <version>3.5.4</version>
     <packageSourceUrl>https://github.com/kenmaglio/choco-kustomize</packageSourceUrl>
     <owners>Ken Maglio</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
