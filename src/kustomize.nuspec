@@ -3,13 +3,13 @@
   <metadata>
     <id>kustomize</id>
     <version>3.5.4</version>
-    <packageSourceUrl>https://github.com/kenmaglio/choco-kustomize</packageSourceUrl>
-    <owners>Ken Maglio</owners>
+    <packageSourceUrl>https://github.com/curtdept/choco-kustomize</packageSourceUrl>
+    <owners>Ken Maglio, Curtis Deptuck</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>Kustomize (Install)</title>
     <authors>Kubernetes-SIG</authors>
     <projectUrl>http://kustomize.io</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/kenmaglio/choco-kustomize/master/images/kustomize.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/curtdept/choco-kustomize/master/images/kustomize.png</iconUrl>
     <licenseUrl>https://github.com/kubernetes-sigs/kustomize/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/kubernetes-sigs/kustomize</projectSourceUrl>
